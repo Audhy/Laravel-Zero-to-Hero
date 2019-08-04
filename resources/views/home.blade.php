@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -14,11 +14,8 @@
                         </div>
                     @endif
 
-                    <button type="submit" class="btn btn-primary">
-                        <span class="glyphicon glyphicon-floppy-disk"></span>
-                        Create
-                     </button>
-                                    </div>
+                    You are logged in!
+                </div>
             </div>
         </div>
     </div>

@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Audhy Zero to Hero
                 </div>
 
                 <div class="links">
