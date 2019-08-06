@@ -35,9 +35,6 @@ Route::get('biodata/db',function(){
 
 
 
-Route::get('/master', function () {
-    return view('master');
-});
 Route::get('/marvel', function () {
     return view('marvel.index');
 });
