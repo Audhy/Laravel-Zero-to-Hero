@@ -19,6 +19,8 @@ Route::get('/biodata', function () {
 });
 
 
+Route::resource('hero','HeroController');
+
 Route::get('biodata/{nama}/{umur}',function($nama,$umur){
   echo'<h1>Nama Saya: '.$nama.'</h1>';
   echo'<br>';

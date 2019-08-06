@@ -1,0 +1,34 @@
+menjalankan laravel
+*pindah ke project laravel
+php artisan serve
+
+membuat migration table
+php artisan make:migration create_users_table --create=users
+*users merupakan nama table
+
+php artisan make:migration add_votes_to_users_table --table=users
+*users merupakan nama table
+*votes merupakan nama kolom
+
+menjalankan migration
+php artisan migrate
+
+membuat auth
+php artisan make:auth
+
+membuat controller
+php artisan make:controller PhotoController --resource
+
+* --resource = rest API tergenerate function defeult CRUD
+
+melihat daftar route
+php artisan reoute:list
+
+file management
+Model = App-> nama model
+Controller =  App->Http->Controller
+View = resources->view
+Migration = database->migrations
+Seeder = database->seeds
+
+
