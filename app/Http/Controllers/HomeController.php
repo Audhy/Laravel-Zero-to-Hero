@@ -1,5 +1,5 @@
 <?php
-//test dicoba Audhy here iyoo
+//test dicoba Audhy here iyoo gak takok
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
